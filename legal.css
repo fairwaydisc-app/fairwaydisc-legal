@@ -1,0 +1,10 @@
+:root { color-scheme: light; --ink: #201a17; --muted: #5a4138; --paper: #fff8f6; --line: #e2bfb2; --accent: #a33900; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Iowan Old Style", Palatino, Georgia, serif; background: var(--paper); color: var(--ink); }
+main { max-width: 42rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+h1 { font-size: 2rem; line-height: 1.2; margin-bottom: 0.25rem; }
+h2 { font-size: 1.2rem; margin-top: 2rem; }
+p, li { line-height: 1.55; }
+.meta { color: var(--muted); }
+a { color: var(--accent); }
+footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--line); }
